@@ -40,11 +40,13 @@ Run the Jupyter notebook to train and save the model:
 jupyter notebook train_number_model.ipynb
 
 This script will download the MNIST dataset, train a CNN model for 5 epochs, and save the trained model. You should see a high test accuracy (e.g., 95-99%) printed at the end of the training process, indicating a well-trained model.
+![demo](images/model_proof.png)
 
 # 5. Run the Streamlit App
 Once the model is trained and saved, you can launch the Streamlit application:
 streamlit run app-lit.py
 This command will open the application in your default web browser.
+![demo](images/Number%20Guesser%20-%20Brave%202025-06-16%2014-56-58.mp4)
 
 # Usage
 - **Open the App:** After running streamlit run app-lit.py, the app will open in your browser.
